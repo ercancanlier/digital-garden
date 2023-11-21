@@ -1,0 +1,47 @@
+site_name: ERCAN CANLIER'S DIGITAL GARDEN
+site_description: My digital garden
+site_author: ERCAN CANLIER
+theme:
+  name: material
+  features:
+      - content.code.annotate
+      - content.tooltips
+      - navigation.instant
+      - navigation.indexes
+      - navigation.tracking
+      - search.highlight
+      - search.share
+      - search.suggest
+      - toc.follow
+      - toc.integrate
+nav:
+  - Introduction: index.md
+  - Computer Science: computerscience.md
+  - Thoughts: thoughts.md
+markdown_extensions:
+  - abbr
+  - admonition
+  - meta
+  - def_list
+  - toc:
+      permalink: ⚑
+      baselevel: 2
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: '!!python/name:pymdownx.emoji.to_svg'
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
