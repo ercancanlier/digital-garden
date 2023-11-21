@@ -20,28 +20,32 @@ nav:
   - Thoughts: thoughts.md
 markdown_extensions:
   - abbr
+  - attr_list
   - admonition
-  - meta
   - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
   - toc:
-      permalink: ⚑
-      baselevel: 2
-  - pymdownx.arithmatex
+      permalink: true
+      toc_depth: 3
   - pymdownx.betterem:
       smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: '!!python/name:pymdownx.emoji.to_svg'
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.details
+#   - pymdownx.snippets:
+#       base_path: docs-mk/snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.mark
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
