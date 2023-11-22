@@ -38,8 +38,6 @@ nav:
   - Thoughts: thoughts.md
 plugins:
   - search
-  - exclude-search:
-      exclude: [newsletter/*]
   - autolinks
   - git-revision-date-localized:
       type: timeago
