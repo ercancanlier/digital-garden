@@ -38,7 +38,6 @@ nav:
   - Thoughts: thoughts.md
 plugins:
   - search
-  - autolinks
   - git-revision-date-localized:
       type: timeago
   - minify:
