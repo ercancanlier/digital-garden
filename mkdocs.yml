@@ -3,8 +3,6 @@ site_description: My digital garden
 site_author: ERCAN CANLIER
 theme:
   name: material
-  custom_dir: theme
-  logo: img/logo.bmp
   features:
     - navigation.footer
     - navigation.instant
