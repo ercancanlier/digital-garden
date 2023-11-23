@@ -34,6 +34,9 @@ nav:
   - Introduction: index.md
   - Computer Science: computerscience.md
   - Thoughts: thoughts.md
+  - Books: books.md
+  - Photos: photos.md
+  - Contacts: contacts.md
 plugins:
   - search
 markdown_extensions:
