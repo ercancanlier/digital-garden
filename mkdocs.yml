@@ -33,10 +33,10 @@ docs_dir: docs
 nav:
   - Introduction: index.md
   - Computer Science: computerscience.md
-  - Thoughts: thoughts.md
   - Books: books.md
   - Photos: photos.md
-  - Contacts: contacts.md
+  - Thoughts: thoughts.md
+  - Contact: contact.md
 plugins:
   - search
 markdown_extensions:
