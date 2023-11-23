@@ -20,4 +20,5 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install mkdocs-simple-blog
+      - run: pip3 install mkdocs-blogging-plugin
       - run: mkdocs gh-deploy --force
