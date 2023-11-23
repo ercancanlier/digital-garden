@@ -2,7 +2,7 @@ site_name: ERCAN CANLIER'S DIGITAL GARDEN
 site_description: My digital garden
 site_author: ERCAN CANLIER
 theme:
-  name: mkdocs
+  name: simple-blog
   features:
     - navigation.footer
     - navigation.instant
