@@ -1,8 +1,8 @@
-site_name: DIGITAL GARDEN
+site_name: ERCAN CANLIER'S DIGITAL GARDEN
 site_description: My digital garden
 site_author: ERCAN CANLIER
 theme:
-  name: material
+  name: mkdocs
   features:
     - navigation.footer
     - navigation.instant
