@@ -1,4 +1,4 @@
-site_name: ERCAN CANLIER'S DIGITAL GARDEN
+site_name: Digital Garden
 site_description: My digital garden
 site_author: ERCAN CANLIER
 theme:
@@ -21,8 +21,8 @@ theme:
     # Light mode
     - media: '(prefers-color-scheme: light)'
       scheme: default
-      primary: blue grey
-      accent: light blue
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
