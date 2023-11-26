@@ -45,6 +45,7 @@ nav:
   - Contact: contact.md
 plugins:
   - search
+  - blog
 markdown_extensions:
   - abbr
   - attr_list
