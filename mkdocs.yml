@@ -41,7 +41,9 @@ nav:
   - Computer Science: computerscience.md
   - Books: books.md
   - Photos: photos.md
-  - Thoughts: thoughts.md
+  - Blog:
+    - blog/index.md
+    - blog/authors.md
   - Contact: contact.md
 plugins:
   - search
