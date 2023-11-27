@@ -40,7 +40,7 @@ nav:
   - Introduction: index.md
   - Computer Science:
       - DevOps:
-          - Podman: podman_debug_level.md
+          - Podman: computerscience/devops/podman/podman_debug_level.md
   - Books: books.md
   - Photos: photos.md
   - Contact: contact.md
