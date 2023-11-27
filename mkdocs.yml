@@ -38,7 +38,9 @@ theme:
 docs_dir: docs
 nav:
   - Introduction: index.md
-  - Computer Science: computerscience.md
+  - Computer Science:
+      - DevOps:
+          - Podman: podman_debug_level.md
   - Books: books.md
   - Photos: photos.md
   - Contact: contact.md
