@@ -42,7 +42,7 @@ nav:
     - DevOps:
       - Podman: computerscience/devops/podman/podman_debug_level.md
       - OpenShift:
-        -Troubleshooting: computerscience/devops/openshift/troubleshooting.md
+        - Troubleshooting: computerscience/devops/openshift/troubleshooting.md
   - Books: books.md
   - Photos: photos.md
   - Contact: contact.md
