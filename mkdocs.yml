@@ -49,6 +49,7 @@ nav:
 plugins:
   - search
   - blog
+  - section-index
 markdown_extensions:
   - abbr
   - attr_list
