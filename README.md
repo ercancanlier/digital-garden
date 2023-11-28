@@ -1,4 +1,4 @@
-# [Digital Garden](https://ercancanlier.github.io/digital-garden/)
+# [Ercan Canlıer's Digital Garden](https://ercancanlier.github.io/digital-garden/)
 
 This is my personal digital garden where i share everything that
 i have found out how to do or just to remember for myself
