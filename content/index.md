@@ -3,6 +3,8 @@ This is my personal wiki to write out things
 that i have found out how to do and share with others. All opinions expressed here are 
 solely my own and do not express the views or opinions of others.
 
+![](assets/ercancanlier.jpeg)
+
 # Who am i?
 I am a passionate software engineer who constantly seeks out innovative solutions to everyday problems. 
 I examine the consequences, identify the best solutions and put that solutions into practice. 
