@@ -15,8 +15,31 @@ oc --kubeconfig=${INSTALL_DIR}/auth/kubeconfig get machinesets
 oc --kubeconfig=${INSTALL_DIR}/auth/kubeconfig get csr | grep -i pending
 oc --kubeconfig=${INSTALL_DIR}/auth/kubeconfig get clusterversion
 
-for i in `oc get csr --no-headers | grep -i pending | awk '{ print $1 }'`;  do oc adm certificate approve $i; 
+for i in `oc get csr --no-headers \
+| grep -i pending \ 
+| awk '{ print $1 }'`;  do oc adm certificate approve $i; 
 done
-
-
 ```
+## ODF Operator is not able to upgrade
+
+**Issue**:  Upgrading ODF operator is not working as expected.
+
+**Solution**: Check OLM components:
+
+* Backup install-plan and delete.
+* Backup csv and subscription and delete.
+* Apply subscription again and wait for csv and install-plan to be created.
+* Approve the operator upgrade manually if approve type is manual.
+* Set operator approval type to automatic.
+
+## OCP Upgrade is stucked for some of the cluster operators
+
+**Issue**: Some of the cluster operators are not able to be upgrade due to the bad conditions.
+
+**Solution**: Check cluster operators and related namespaces:
+```bash
+oc get co
+```
+* Check Administration->Cluster Settings
+* Check related namespaces to the operators like openshift-sdn, openshift-storage whether or not the pods have underlying issues.
+* Check network connectivity especially if there is cluster-wide proxy.
