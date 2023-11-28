@@ -76,6 +76,7 @@ plugins:
   - search
   - git-authors
   - glightbox
+  - tags
 
 # Navigation
 nav:
