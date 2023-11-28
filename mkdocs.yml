@@ -39,8 +39,27 @@ docs_dir: docs
 nav:
   - Introduction: index.md
   - Computer Science:
-      - DevOps:
-          - Podman: computerscience/devops/podman/podman_debug_level.md
+    - Algorithms:
+    - DevOps:
+      - Argo:
+      - Ansible:
+      - Docker:
+      - Git:
+      - Kubernetes:
+      - OpenShift:
+      - Podman: computerscience/devops/podman/podman_debug_level.md
+    - Languages:
+      - Bash:
+      - Go:
+      - Java:
+      - Javascript:
+      - Python:
+    - Network:
+    - Products:
+      - IBM:
+        - API Connect:
+        - DataPower:
+    - Security:
   - Books: books.md
   - Photos: photos.md
   - Contact: contact.md
