@@ -1,41 +1,90 @@
+# Project Info:
 site_name: Digital Garden
-site_description: My digital garden
+site_description: ERCAN CANLIER's Digital Garden
 site_author: ERCAN CANLIER
+
+# Repository Info:
+repo_name: ercancanlier/digital-garden
+repo_url: https://github.com/ercancanlier/digital-garden
+
+# Configuration
 theme:
   name: material
-  language: tr
+  language: en
   extra:
   alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-  features:
-    - navigation.footer
-    - navigation.instant
-    - navigation.top
-    - content.code.annotate
-    - search.suggest
-    - search.highlight
-
+    - name: Turkish
+      link: /tr/ 
+      lang: tr
   palette:
-    # Light mode
-    - media: '(prefers-color-scheme: light)'
-      scheme: default
-      primary: indigo
-      accent: indigo
+    - primary: black
+      accent: red
       toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-
-    # Dark mode
-    - media: '(prefers-color-scheme: dark)'
-      scheme: slate
-      primary: black
-      accent: light blue
-      toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb-outline
         name: Switch to light mode
-docs_dir: docs
+    - scheme: slate
+      primary: black
+      accent: red
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+font:
+  text: Overpass
+  code: Overpass Mono
+icon:
+  logo: material/receipt
+  repo: fontawesome/brands/github
+
+features:
+  - navigation.instant
+  - navigation.top
+  - navigation.indexes
+  - navigation.tracking
+  - content.code.copy
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ercancanlier
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ercancanlier/
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - pymdownx.tasklist
+  - pymdownx.snippets:
+      check_paths: true
+  - meta
+  - attr_list
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: false
+      type: timeago
+  - git-authors
+  - tags:
+      tags_file: tags.md
+  - macros:
+      verbose: false
+  - glightbox
+
 nav:
   - Introduction: index.md
   - Computer Science:
@@ -46,35 +95,5 @@ nav:
   - Books: books.md
   - Photos: photos.md
   - Contact: contact.md
-plugins:
-  - search
-  - blog
-markdown_extensions:
-  - abbr
-  - attr_list
-  - admonition
-  - def_list
-  - footnotes
-  - md_in_html
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - toc:
-      permalink: ⚑
-      baselevel: 2
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+
+docs_dir: docs
