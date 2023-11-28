@@ -74,17 +74,10 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
-  - git-revision-date-localized:
-      enable_creation_date: true
-      fallback_to_build_date: false
-      type: timeago
   - git-authors
-  - tags:
-      tags_file: tags.md
-  - macros:
-      verbose: false
   - glightbox
 
+# Navigation
 nav:
   - Introduction: index.md
   - Computer Science:
