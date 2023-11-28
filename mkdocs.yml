@@ -49,7 +49,6 @@ nav:
 plugins:
   - search
   - blog
-  - section-index
 markdown_extensions:
   - abbr
   - attr_list
@@ -60,15 +59,13 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - toc:
-      permalink: true
-      toc_depth: 3
+      permalink: ⚑
+      baselevel: 2
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details
-#   - pymdownx.snippets:
-#       base_path: docs-mk/snippets
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
