@@ -1,6 +1,5 @@
-# Introduction
-Hi, 
-I am ERCAN CANLIER and this is my personal wiki to write out things 
+# Hi, I am Ercan CANLIER
+This is my personal wiki to write out things 
 that i have found out how to do and share with others. All opinions expressed here are 
 solely my own and do not express the views or opinions of others.
 
