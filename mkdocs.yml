@@ -76,7 +76,8 @@ plugins:
   - search
   - git-authors
   - glightbox
-  - tags
+  - tags:
+      tags_file: tags.md
 
 # Navigation
 nav:
@@ -89,5 +90,6 @@ nav:
   - Books: books.md
   - Photos: photos.md
   - Contact: contact.md
+  - Tags: tags.md
 
 docs_dir: content/
