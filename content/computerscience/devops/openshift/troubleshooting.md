@@ -33,9 +33,13 @@ done
 **Solution**: Check OLM components:
 
 * Backup install-plan and delete.
+
 * Backup csv and subscription and delete.
+
 * Apply subscription again and wait for csv and install-plan to be created.
+
 * Approve the operator upgrade manually if approve type is manual.
+
 * Set operator approval type to automatic.
 
 ## OCP Upgrade is stucked for some of the cluster operators
@@ -47,5 +51,7 @@ done
 oc get co
 ```
 * Check Administration->Cluster Settings
+
 * Check related namespaces to the operators like openshift-sdn, openshift-storage whether or not the pods have underlying issues.
+
 * Check network connectivity especially if there is cluster-wide proxy.
