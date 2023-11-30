@@ -89,7 +89,7 @@ nav:
         - Troubleshooting: computerscience/devops/openshift/troubleshooting.md
     - Application Gateway:
       - DataPower:
-        - Administration: computerscience/gateway/datapower/administration.md
+        - Administration: computerscience/gateway/datapower/administration/administration.md
   - Books: books.md
   - Photos: photos.md
   - Contact: contact.md
