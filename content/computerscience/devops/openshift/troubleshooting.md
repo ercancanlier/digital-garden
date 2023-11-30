@@ -1,5 +1,6 @@
 ---
 title: OpenShift Troubleshooting
+linktitle: OpenShift Troubleshooting
 description: All about OpenShift Trouleshooting
 tags: ["troubleshooting", "openshift"]
 ---
