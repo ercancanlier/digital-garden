@@ -16,8 +16,8 @@ The Pursuit of Happyness
 
 Browse for existing digital gardens and second brain related sites:
 
+* [Robert Bohne-OpenShift Examples](https://github.com/openshift-examples)
 * [Ravi Ramnarayan](https://github.com/raviram203)
-* [OpenShift Examples](https://github.com/openshift-examples)
 * [A list of awesome Mkdocs projects and plugins](https://github.com/mkdocs/catalog)
 * [The Blue Book](https://lyz-code.github.io/blue-book/writing/writing/)
 * [Best of Digital Gardens](https://github.com/lyz-code/best-of-digital-gardens)
