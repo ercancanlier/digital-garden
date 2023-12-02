@@ -90,6 +90,9 @@ nav:
     - Application Gateway:
       - DataPower:
         - Administration: computerscience/gateway/datapower/administration/administration.md
+    - API Management:
+      - API Connect
+        - Architecture: computerscience/apimanagement/apiconnect/architecture/active-active-dr.md
   - Books: books.md
   - Photos: photos.md
   - Contact: contact.md
