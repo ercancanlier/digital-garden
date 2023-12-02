@@ -4,10 +4,12 @@ linktitle: API Connect Active-Active Disaster Recovery Architecture
 description: Active-Active DR high level architecture details
 tags: ["apiconnect"]
 ---
+# API Connect Active-Active Disaster Recovery Architecture
+
 ## What is Disaster Recovery?
 Disaster recovery is the process of maintaining or reestablishing vital infrastructure and systems following
 
- a natural or human-induced disaster, such as a storm or battle. It employs policies, tools, and procedures. (Wikipedia)
+a natural or human-induced disaster, such as a storm or battle. It employs policies, tools, and procedures. (Wikipedia)
 
 As you can see the description of DR(Disaster Recovery) from Wikipedia, that is extremely an important step in case of emergency. However, most of the 
 
