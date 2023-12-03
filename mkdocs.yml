@@ -90,6 +90,7 @@ nav:
     - Application Gateway:
       - DataPower:
         - Administration: computerscience/gateway/datapower/administration/administration.md
+        - Architecture: computerscience/gateway/datapower/architecture/architecture.md
     - API Management:
       - API Connect:
         - Architecture: computerscience/apimanagement/apiconnect/architecture/active-active-dr.md
