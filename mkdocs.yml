@@ -97,16 +97,16 @@ nav:
   - Books: books.md
   - Photos: photos.md
   - Trainings:
-      - Docker: docker.md
-      - Kubernetes: kubernetes.md
-      - OpenShift: openshift.md
-      - API Connect: trainings/apiconnect/index.md
-        - Lab1: trainings/apiconnect/lab1/lab1.md
-        - Lab2: trainings/apiconnect/lab1/lab2.md
-        - Lab3: trainings/apiconnect/lab1/lab3.md
-        - Lab4: trainings/apiconnect/lab1/lab4.md
-        - Lab5: trainings/apiconnect/lab1/lab5.md
-      - DataPower: datapower.md
+    - Docker: docker.md
+    - Kubernetes: kubernetes.md
+    - OpenShift: openshift.md
+    - API Connect: trainings/apiconnect/index.md
+      - Lab1: trainings/apiconnect/lab1/lab1.md
+      - Lab2: trainings/apiconnect/lab1/lab2.md
+      - Lab3: trainings/apiconnect/lab1/lab3.md
+      - Lab4: trainings/apiconnect/lab1/lab4.md
+      - Lab5: trainings/apiconnect/lab1/lab5.md
+    - DataPower: datapower.md
   - Contact: contact.md
   - Tags: tags.md
 
