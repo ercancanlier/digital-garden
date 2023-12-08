@@ -94,6 +94,9 @@ nav:
     - API Management:
       - API Connect:
         - Architecture: computerscience/apimanagement/apiconnect/architecture/active-active-dr.md
+        - Management:
+          - Authentication and Security:
+            - TLS: computerscience/apimanagement/apiconnect/management/authenticationandsecurity/tls.md 
   - Books: books.md
   - Photos: photos.md
   - Trainings:
