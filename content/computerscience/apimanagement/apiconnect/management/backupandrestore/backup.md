@@ -95,12 +95,13 @@ If you are not sure about the namespace, you can use -A option to search for all
 ```bash
 oc get po -n <management-namespace> | grep backrest-shared-repo
 ```
+
 2. Open a remote shell to pod:
 
 ```bash
 oc rsh <backrest-shared-repo-pod-name>
-````
-``
+```
+
 3. Create a tmp file in /tmp:
 
 ```bash
