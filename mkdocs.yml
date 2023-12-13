@@ -97,6 +97,8 @@ nav:
         - Management:
           - Authentication and Security:
             - TLS: computerscience/apimanagement/apiconnect/management/authenticationandsecurity/tls.md 
+          - Backup and Restore:
+            - Backup Configuration: computerscience/apimanagement/apiconnect/management/backupandrestore/backup.md
   - Books: books.md
   - Photos: photos.md
   - Trainings:
