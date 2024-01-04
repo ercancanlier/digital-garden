@@ -99,6 +99,7 @@ nav:
             - TLS: computerscience/apimanagement/apiconnect/management/authenticationandsecurity/tls.md 
           - Backup and Restore:
             - Backup Configuration: computerscience/apimanagement/apiconnect/management/backupandrestore/backup.md
+          - Form Factor Migration: computerscience/apimanagement/apiconnect/management/formfactormigration/formfactormigration.md
   - Books: books.md
   - Photos: photos.md
   - Trainings:
