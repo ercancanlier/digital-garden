@@ -19,9 +19,8 @@ https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=connect-migrating-fro
 3. Install  pyyaml
 
 ```bash
-pip3 install pyyaml.
+pip3 install pyyaml
 ```
-
 4. Install apic cli.
 
 5. Ensure no connectivity between Production and DR sites.
@@ -125,7 +124,6 @@ spec:
   profile: n3xc14.m48
   storageClassName: ocs-storagecluster-ceph-rbd
   version: 10.0.5.0
-
 ```
  
 4. Create apigwcustom-cert certificate in OCP.
@@ -164,6 +162,8 @@ apic login --realm admin/default-idp-1 --username admin --server apic-mgmt-platf
 ```bash
 python3 restore_management_db.py -n apic -s apic-mgmt-platform-api-apic.apps.cp4intdr.example.com
 ```
+
+Note: Continue to the steps, don't login before running register_gateway_portal script.
 
 12. Change route settings in OCP:
 
@@ -315,13 +315,16 @@ oc apply -f dns-config.yaml
 27. Run update_to_new_portals.py
 
 ```bash
-python3 update_to_new_portals.py -n apic -u admin -p -s apic-mgmt-platform-api-apic.apps.cp4intdr.example.com -r admin/default-idp-1 -silent -api_manager_hostname  apic-mgmt-platform-api-apic.apps.cp4intdr.example.com
+  python3 update_to_new_portals.py -n apic -u admin -p -s apic-mgmt-platform-api-apic.apps.cp4intdr.example.com -r admin/default-idp-1 -silent -api_manager_hostname  apic-mgmt-platform-api-apic.apps.cp4intdr.example.com
 ```
 28. Run update_to_new_gateways.py
 
 ```bash
   python3 update_to_new_gateways.py -n apic -u admin -p -s apic-mgmt-platform-api-apic.apps.cp4intdr.example.com -r admin/default-idp-1 -silent -api_manager_hostname  apic-mgmt-platform-api-apic.apps.cp4intdr.example.com
 ```
+
+
+
 
 ## Troubleshooting
 
@@ -335,4 +338,5 @@ curl -v telnet://ntp.example.com:123
 **Check chrony services as ODF is not running without NTP**
 
 3. Running some of the python scripts might require --force. (catalog-settings-update)
+
  
