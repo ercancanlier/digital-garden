@@ -317,6 +317,9 @@ oc apply -f dns-config.yaml
 ```bash
   python3 update_to_new_portals.py -n apic -u admin -p -s apic-mgmt-platform-api-apic.apps.cp4intdr.example.com -r admin/default-idp-1 -silent -api_manager_hostname  apic-mgmt-platform-api-apic.apps.cp4intdr.example.com
 ```
+
+**Duration**: 20-30 minutes
+
 28. Run update_to_new_gateways.py
 
 ```bash
@@ -338,5 +341,7 @@ curl -v telnet://ntp.example.com:123
 **Check chrony services as ODF is not running without NTP**
 
 3. Running some of the python scripts might require --force. (catalog-settings-update)
+
+4. F5 OpenShift ingress router pods 
 
  
