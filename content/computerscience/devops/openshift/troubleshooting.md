@@ -55,3 +55,41 @@ oc get co
 * Check related namespaces to the operators like openshift-sdn, openshift-storage whether or not the pods have underlying issues.
 
 * Check network connectivity especially if there is cluster-wide proxy.
+
+## Bundle unpacking failed. reason deadlineexceeded while operator installation!
+
+1. Follow the steps here: https://access.redhat.com/solutions/6459071
+
+2. List the jobs in the namespace openshift-marketplace 
+```bash 
+oc get job -n openshift-marketplace -o json | jq -r '.items[] | select(.spec.template.spec.containers[].env[].value|contains ("<operator_name_keyword>")) | .metadata.name'
+```
+
+3. Delete the jobs from the ones that were executed above:
+
+```bash
+$ oc delete job <job-name> -n openshift-marketplace
+```
+4. Delete the configmaps from the ones that were executed above:
+
+```bash
+$ oc delete configmap <job-name> -n openshift-marketplace
+```
+
+5. If the above scripts don't work, continue with steps below:
+
+6. Backup install-plan, csv, subscription
+
+7. Delete install-plan
+
+8. Delete csv
+
+9. Delete subscription
+
+10. Apply same subscription to the cluster.
+
+11. Check that csv and install-plan is created and operator is healthy.
+
+12. Continue upgrading.
+
+IMPORTANT: Deadline in seconds is 600 seconds by default.

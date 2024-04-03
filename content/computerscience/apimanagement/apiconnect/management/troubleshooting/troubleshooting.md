@@ -33,3 +33,15 @@ tags: ["troubleshooting", "apiconnect"]
 13. turnstile
 
 14. hub
+
+## API Protection error while publishing APIs on 10.0.5.4
+
+1. Check api_protection is enabled for webhook: apicops debug:info for all domains.
+
+2. Reregister gateways and apply the steps below:
+
+https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=acgs-dynamically-re-registering-reconfiguring-gateway-service-in-kubernetes-deployment
+
+3. Edit GW Services summary to send an update and test management-gateway communication.
+
+4. Check tasks in API Manager Catalog Settings. There should not be any queued tasks.
