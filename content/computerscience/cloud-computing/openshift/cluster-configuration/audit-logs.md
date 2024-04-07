@@ -158,6 +158,6 @@ oc adm node-logs <node-name> --path=oauth-server/audit.log | jq 'select(.verb=="
     "authorization.k8s.io/reason": "RBAC: allowed by RoleBinding \"cluster-monitoring-operator/openshift-monitoring\" of ClusterRole \"cluster-monitoring-operator-namespaced\" to ServiceAccount \"cluster-monitoring-operator/openshift-monitoring\""
   }
 }
-````
+```
 
 API Index: https://docs.openshift.com/container-platform/4.12/rest_api/index.html
