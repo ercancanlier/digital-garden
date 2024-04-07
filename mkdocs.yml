@@ -83,24 +83,26 @@ plugins:
 nav:
   - Introduction: index.md
   - Computer Science:
-    - DevOps:
-      - Podman: computerscience/devops/podman/podman_debug_level.md
-      - OpenShift:
-        - Troubleshooting: computerscience/devops/openshift/troubleshooting.md
-    - Application Gateway:
-      - DataPower:
-        - Administration: computerscience/gateway/datapower/administration/administration.md
-        - Architecture: computerscience/gateway/datapower/architecture/architecture.md
-    - API Management:
-      - API Connect:
-        - Architecture: computerscience/apimanagement/apiconnect/architecture/active-active-dr.md
-        - Management:
-          - Authentication and Security:
-            - TLS: computerscience/apimanagement/apiconnect/management/authenticationandsecurity/tls.md 
+    - API:  
+      - Application Gateway:
+        - DataPower:
+          - Administration: computerscience/gateway/datapower/administration/administration.md
+          - Architecture: computerscience/gateway/datapower/architecture/architecture.md
+      - API Management:
+        - API Connect:
+          - Architecture: computerscience/apimanagement/apiconnect/architecture/active-active-dr.md
+          - Management:
+            - Authentication and Security:
+              - TLS: computerscience/apimanagement/apiconnect/management/authenticationandsecurity/tls.md 
           - Backup and Restore:
             - Backup Configuration: computerscience/apimanagement/apiconnect/management/backupandrestore/backup.md
           - Form Factor Migration: computerscience/apimanagement/apiconnect/management/formfactormigration/formfactormigration.md
-          - Troubleshooting: computerscience/apimanagement/apiconnect/management/troubleshooting/troubleshooting.md
+          - Troubleshooting: computerscience/apimanagement/apiconnect/management/troubleshooting/troubleshooting.md  
+    - Cloud Computing:
+      - OpenShift:
+        - Troubleshooting: computerscience/devops/openshift/troubleshooting.md 
+    - DevOps:
+      - Podman: computerscience/devops/podman/podman_debug_level.md
   - Books: books.md
   - Photos: photos.md
   - Trainings:
