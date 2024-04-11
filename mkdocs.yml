@@ -99,7 +99,6 @@ nav:
           - Form Factor Migration: computerscience/apimanagement/apiconnect/management/formfactormigration/formfactormigration.md
           - Troubleshooting: computerscience/apimanagement/apiconnect/management/troubleshooting/troubleshooting.md  
     - Cloud Computing:
-      - OpenShift:
     - DevOps:
       - Podman: computerscience/devops/podman/podman_debug_level.md
   - Books: books.md
