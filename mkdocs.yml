@@ -84,7 +84,7 @@ nav:
   - Introduction: index.md
   - Computer Science:
     - API:  
-      - Application Gateway:
+      - API Gateway:
         - DataPower:
           - Administration: computerscience/gateway/datapower/administration/administration.md
           - Architecture: computerscience/gateway/datapower/architecture/architecture.md
