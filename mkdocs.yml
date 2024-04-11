@@ -100,9 +100,6 @@ nav:
           - Troubleshooting: computerscience/apimanagement/apiconnect/management/troubleshooting/troubleshooting.md  
     - Cloud Computing:
       - OpenShift:
-        - Cluster Installation:
-        - Cluster Configuration:
-        - Troubleshooting:
     - DevOps:
       - Podman: computerscience/devops/podman/podman_debug_level.md
   - Books: books.md
