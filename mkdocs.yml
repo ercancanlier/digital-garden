@@ -102,8 +102,7 @@ nav:
       - OpenShift:
         - Cluster Installation:
         - Cluster Configuration:
-          - Audit Logs: computerscience/cloud-computing/openshift/cluster-configuration/audit-logs.md
-        - Troubleshooting: computerscience/devops/openshift/troubleshooting.md 
+        - Troubleshooting:
     - DevOps:
       - Podman: computerscience/devops/podman/podman_debug_level.md
   - Books: books.md
