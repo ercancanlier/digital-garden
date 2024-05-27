@@ -73,6 +73,7 @@ markdown_extensions:
 
 # Plugins
 plugins:
+  - blog
   - search
   - git-authors
   - glightbox
@@ -99,6 +100,11 @@ nav:
           - Form Factor Migration: computerscience/apimanagement/apiconnect/management/formfactormigration/formfactormigration.md
           - Troubleshooting: computerscience/apimanagement/apiconnect/management/troubleshooting/troubleshooting.md  
     - Cloud Computing:
+      - OpenShift:
+        - Cluster Installation:
+        - Cluster Configuration:
+          - Audit Logs: computerscience/cloud-computing/openshift/cluster-configuration/audit-logs.md
+        - Troubleshooting: computerscience/devops/openshift/troubleshooting.md 
     - DevOps:
       - Podman: computerscience/devops/podman/podman_debug_level.md
   - Books: books.md
@@ -114,6 +120,8 @@ nav:
       - Lab4: trainings/apiconnect/lab4/lab4.md
       - Lab5: trainings/apiconnect/lab5/lab5.md
     - DataPower: datapower.md
+  - Blog:
+    - blog/index.md
   - Contact: contact.md
   - Tags: tags.md
 
