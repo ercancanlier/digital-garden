@@ -12,10 +12,10 @@ theme:
   name: material
   language: en
   extra:
-  alternate:
-    - name: Turkish
-      link: /tr/ 
-      lang: tr
+    alternate:
+      - name: Turkish
+        link: /tr/ 
+        lang: tr
   palette:
     - primary: black
       accent: red
