@@ -83,10 +83,10 @@ plugins:
 # Navigation
 nav:
   - Introduction: index.md
-  - Computer Science:
+  - Computer Science: index
   - Books: books.md
   - Photos: photos.md
-  - Trainings:
+  - Trainings: index
   - Blog:
     - blog/index.md
   - Contact: contact.md
