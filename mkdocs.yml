@@ -10,12 +10,12 @@ repo_url: https://github.com/ercancanlier/digital-garden
 # Configuration
 theme:
   name: material
-  language: en
+  language: tr
   extra:
     alternate:
-      - name: Turkish
-        link: /tr/ 
-        lang: tr
+      - name: English
+        link: /en/ 
+        lang: en
   palette:
     - primary: black
       accent: red
