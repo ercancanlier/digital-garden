@@ -9,7 +9,7 @@ repo_url: https://github.com/ercancanlier/digital-garden
 
 # Configuration
 theme:
-  name: material
+  name: mkdocs
   language: tr
   extra:
     alternate:
