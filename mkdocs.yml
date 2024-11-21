@@ -11,14 +11,6 @@ repo_url: https://github.com/ercancanlier/digital-garden
 theme:
   name: material
   language: tr
-  extra:
-    alternate:
-      - name: English
-        link: /en/ 
-        lang: en
-      - name: Deutsch
-        link: /de/
-        lang: de
   palette:
     - primary: black
       accent: red
