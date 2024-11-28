@@ -1,8 +1,11 @@
 ---
 draft: true 
-date: 29-11-2024
+date: 2024-11-29
 categories:
-  - OpenShift
+  - Hello
+  - World
 ---
 
 # Hello world!
+...
+
