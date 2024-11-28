@@ -39,6 +39,11 @@ features:
 
 # Extras
 extra:
+  alternate:
+    # Switch to English
+    - name: English
+      link: <your-site>/en/
+      lang: en
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ercancanlier
