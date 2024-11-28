@@ -4,7 +4,6 @@ categories:
   - OpenShift
 ---
 
-# Hello world!
 # OpenShift Audit Logging Guide
 
 Audit logging in OpenShift captures detailed information about events in the system, including the event type, timestamp, responsible user, and impacted entity. This blog post explains how to access, filter, and analyze audit logs in OpenShift.
