@@ -89,6 +89,7 @@ nav:
   - Trainings: index
   - Blog:
     - blog/index.md
+    - blog/posts/openshift-audit-log-filter.md
   - Contact: contact.md
   - Tags: tags.md
 

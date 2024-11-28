@@ -1,5 +1,4 @@
 ---
-draft: false 
 date: 2024-11-29
 categories:
   - Hello
