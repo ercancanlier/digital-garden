@@ -82,7 +82,7 @@ plugins:
 
 # Navigation
 nav:
-  - Introduction: index.md
+  - Introduction: index.tr.md
   - Computer Science: index
   - Books: books.md
   - Photos: photos.md
