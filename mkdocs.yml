@@ -10,7 +10,9 @@ repo_url: https://github.com/ercancanlier/digital-garden
 # Configuration
 theme:
   name: material
-  language: tr
+  languages: 
+    tr: Türkçe
+    en: English
   palette:
     - primary: black
       accent: red
@@ -42,7 +44,7 @@ extra:
   alternate:
     # Switch to English
     - name: English
-      link: <your-site>/en/
+      link: https://github.com/ercancanlier/digital-garden/en/
       lang: en
   social:
     - icon: fontawesome/brands/github
