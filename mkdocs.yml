@@ -10,9 +10,12 @@ repo_url: https://github.com/ercancanlier/digital-garden
 # Configuration
 theme:
   name: material
-  languages: 
-    tr: Türkçe
-    en: English
+  language: tr
+  extra:
+    alternate:
+      - name: English
+        link: /en/ 
+        lang: en
   palette:
     - primary: black
       accent: red
@@ -41,11 +44,6 @@ features:
 
 # Extras
 extra:
-  alternate:
-    # Switch to English
-    - name: English
-      link: https://github.com/ercancanlier/digital-garden/index.en.md
-      lang: en
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ercancanlier
@@ -84,14 +82,15 @@ plugins:
 
 # Navigation
 nav:
-  - Introduction: index.tr.md
+  - Introduction:
+      tr: tr/index.md
+      en: en/index.md
   - Computer Science: index
   - Books: books.md
   - Photos: photos.md
   - Trainings: index
   - Blog:
     - blog/index.md
-    - blog/posts/openshift-audit-log-filter.md
   - Contact: contact.md
   - Tags: tags.md
 
