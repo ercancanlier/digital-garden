@@ -83,3 +83,4 @@ plugins:
   - glightbox
   - tags:
       tags_file: tags.md
+docs_dir: content/
