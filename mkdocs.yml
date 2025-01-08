@@ -1,5 +1,5 @@
 # Project Info:
-site_name: Digital Garden
+site_name: Ercan Canlıer's Digital Garden
 site_description: Ercan Canlıer's Digital Garden
 site_author: Ercan Canlıer
 
@@ -12,9 +12,13 @@ theme:
   name: material
   language: tr
   extra:
+    homepage: /
     alternate:
+      - name: Türkçe
+        link: /content/tr/ 
+        lang: tr
       - name: English
-        link: /en/ 
+        link: /content/en/ 
         lang: en
   palette:
     - primary: black
@@ -79,19 +83,3 @@ plugins:
   - glightbox
   - tags:
       tags_file: tags.md
-
-# Navigation
-nav:
-  - Introduction:
-      tr: tr/index.md
-      en: en/index.md
-  - Computer Science: index
-  - Books: books.md
-  - Photos: photos.md
-  - Trainings: index
-  - Blog:
-    - blog/index.md
-  - Contact: contact.md
-  - Tags: tags.md
-
-docs_dir: content/
