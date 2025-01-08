@@ -3,7 +3,6 @@ INHERIT: ./mkdocs.yml
 site_name: Ercan Canlıer's Digital Garden
 site_description: Ercan Canlıer's Digital Garden
 site_author: Ercan Canlıer
-docs_dir: en
 site_url: https://github.com/ercancanlier/digital-garden/en
 
 # Repository Info:
