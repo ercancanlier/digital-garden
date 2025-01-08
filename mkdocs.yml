@@ -12,7 +12,7 @@ theme:
   name: material
   language: tr
   extra:
-    homepage: /
+    homepage: /content/tr/
     alternate:
       - name: Türkçe
         link: /content/tr/ 
