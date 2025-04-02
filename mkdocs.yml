@@ -12,13 +12,12 @@ theme:
   name: material
   language: tr
   extra:
-    homepage: /content/tr/index.md
     alternate:
       - name: Türkçe
-        link: /content/tr/ 
+        link: /tr/ 
         lang: tr
       - name: English
-        link: /content/en/ 
+        link: /en/ 
         lang: en
   palette:
     - primary: black
@@ -83,4 +82,4 @@ plugins:
   - glightbox
   - tags:
       tags_file: tags.md
-docs_dir: content/
+docs_dir: content/tr
