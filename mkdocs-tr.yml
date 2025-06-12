@@ -3,8 +3,9 @@ INHERIT: ./mkdocs.yml
 site_name: Ercan Canlıer'in Dijital Bahçesi
 site_description: Ercan Canlıer'in Dijital Bahçesi
 site_author: Ercan Canlıer
-site_url: https://github.com/ercancanlier/digital-garden/tr
+site_url: https://github.com/ercancanlier/digital-garden/content/tr
 docs_dir: tr
+site_dir: site/content/tr
 
 # Configuration
 theme:
