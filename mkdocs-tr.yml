@@ -4,7 +4,7 @@ site_name: Ercan Canlıer'in Dijital Bahçesi
 site_description: Ercan Canlıer'in Dijital Bahçesi
 site_author: Ercan Canlıer
 site_url: https://github.com/ercancanlier/digital-garden/tr
-docs_dir: /content/tr/
+docs_dir: tr
 
 # Configuration
 theme:
