@@ -47,7 +47,7 @@ extra:
       link: https://www.linkedin.com/in/ercancanlier/
   alternate:
     - name: English
-      link: /content/en/ 
+      link: /content/en/
       lang: en
     - name: Türkçe
       link: /content/tr/ 
@@ -77,4 +77,3 @@ plugins:
   - glightbox
   - tags:
       tags_file: tags.md
-docs_dir: content
