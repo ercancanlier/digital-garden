@@ -40,6 +40,11 @@ features:
 # Extras
 extra:
   homepage: /
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ercancanlier
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ercancanlier/
   alternate:
     - name: English
       link: /content/en/ 
@@ -47,21 +52,11 @@ extra:
     - name: Türkçe
       link: /content/tr/ 
       lang: tr
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ercancanlier
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/ercancanlier/
 
 # Extensions
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.highlight:
-      linenums: truear  
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.tabbed:
