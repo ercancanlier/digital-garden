@@ -1,4 +1,4 @@
-# [Ercan Canlıer's Digital Garden](https://ercancanlier.github.io/digital-garden/)
+# [Ercan Canlıer's Digital Garden](https://ercancanlier.github.io/digital-garden/docs/tr)
 
 # Hi, I am Ercan CANLIER
 This is my personal digital garden and second brain to write out things 
