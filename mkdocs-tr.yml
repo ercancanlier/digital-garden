@@ -1,11 +1,11 @@
 INHERIT: ./mkdocs.yml
-# Project Info:
-site_name: Ercan Canlıer'in Dijital Bahçesi
-site_description: Ercan Canlıer'in Dijital Bahçesi
-site_author: Ercan Canlıer
 site_url: https://github.com/ercancanlier/digital-garden/content/tr
+# Project Info:
+site_name: Ercan Canlıer Lab
+site_description: Ercan Canlıer Lab
+site_author: Ercan Canlıer
 docs_dir: tr
-site_dir: site/content/tr
+site_dir: site/docs/tr
 
 # Configuration
 theme:

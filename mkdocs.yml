@@ -47,10 +47,10 @@ extra:
       link: https://www.linkedin.com/in/ercancanlier/
   alternate:
     - name: English
-      link: /content/en/
+      link: /docs/en/
       lang: en
     - name: Türkçe
-      link: /content/tr/ 
+      link: /docs/tr/ 
       lang: tr
  
 
@@ -79,4 +79,4 @@ plugins:
   - tags:
       tags_file: tags.md
 
-docs_dir: content/
+docs_dir: docs/
