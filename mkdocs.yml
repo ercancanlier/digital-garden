@@ -47,10 +47,10 @@ extra:
       link: https://www.linkedin.com/in/ercancanlier/
   alternate:
     - name: English
-      link: /docs/en/
+      link: /digital-garden/en/
       lang: en
     - name: Türkçe
-      link: /docs/tr/ 
+      link: /digital-garden/tr/ 
       lang: tr
  
 
