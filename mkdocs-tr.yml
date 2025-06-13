@@ -1,5 +1,5 @@
 INHERIT: ./mkdocs.yml
-site_url: https://github.com/ercancanlier/digital-garden/content/tr
+site_url: https://github.com/ercancanlier/digital-garden/docs/tr
 # Project Info:
 site_name: Ercan Canlıer Lab
 site_description: Ercan Canlıer Lab
