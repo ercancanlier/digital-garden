@@ -66,10 +66,9 @@ extra:
   alternate:
     - name: English
       link: /en/
-      lang: en
     - name: Türkçe
       link: /tr/ 
-      lang: tr
+     
  
 
 # Extensions
