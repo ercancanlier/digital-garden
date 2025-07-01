@@ -1,7 +1,7 @@
 # Project Info:
-site_name: Ercan CANLIER's Digital Garden
-site_description: Ercan Canlıer's Digital Garden
-site_author: Ercan CANLIER
+site_name: ERCAN CANLIER LAB
+site_description: ERCAN CANLIER LAB
+site_url: https://ercancanlier.github.io/digital-garden/
 
 # Repository Info:
 repo_name: ercancanlier/digital-garden
@@ -39,7 +39,6 @@ features:
 
 # Extras
 extra:
-  homepage: /
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ercancanlier
@@ -47,10 +46,10 @@ extra:
       link: https://www.linkedin.com/in/ercancanlier/
   alternate:
     - name: English
-      link: /digital-garden/en/
+      link: /en/
       lang: en
     - name: Türkçe
-      link: /digital-garden/tr/ 
+      link: /tr/ 
       lang: tr
  
 
