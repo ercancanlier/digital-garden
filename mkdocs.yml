@@ -69,8 +69,6 @@ extra:
     - name: Türkçe
       link: /tr/ 
      
- 
-
 # Extensions
 markdown_extensions:
   - admonition
@@ -96,4 +94,9 @@ plugins:
   - tags:
       tags_file: tags.md
 
-docs_dir: docs/
+# Navigation
+nav: 
+- ERCAN CANLIER LAB: index.md
+- Computer Science: 
+- Contact:
+
