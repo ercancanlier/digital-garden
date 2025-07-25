@@ -64,10 +64,10 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/ercancanlier/
   alternate:
-    - name: English
-      link: /en/
-    - name: Türkçe
-      link: /
+   - name: Türkçe
+     link: /
+   - name: English
+     link: /en/
      
 # Extensions
 markdown_extensions:
