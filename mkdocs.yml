@@ -5,7 +5,7 @@ site_url: https://ercancanlier.github.io/digital-garden/
 
 # Repository Info:
 repo_name: ercancanlier/digital-garden
-repo_url: https://github.com/ercancanlier/digital-garden
+repo_url: https://github.com/ercancanlier/digital-garden/
 
 # Configuration
 theme:
@@ -96,4 +96,8 @@ plugins:
 
 # Navigation
 nav: 
-- ERCAN CANLIER LAB: index.md
+- Computer Science:
+  - apimanagement/index.md
+  - cloudcomputing/index.md
+  
+    
