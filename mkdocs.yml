@@ -93,6 +93,8 @@ plugins:
   - glightbox
   - tags:
       tags_file: tags.md
+  - i18n:
+      docs_struc
 
 # Navigation
 nav: 
