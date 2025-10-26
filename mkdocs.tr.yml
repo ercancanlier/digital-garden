@@ -7,6 +7,8 @@ site_url: https://ercancanlier.github.io/digital-garden/
 repo_name: ercancanlier/digital-garden
 repo_url: https://github.com/ercancanlier/digital-garden/
 
+docs_dir: docs/tr
+
 # Configuration
 theme:
   name: material
@@ -101,7 +103,7 @@ extra:
    - name: English
      link: /en/
      lang: en
-     
+
 # Exclude English docs from Turkish site
 exclude_docs: |
   en/
