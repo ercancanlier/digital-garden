@@ -83,9 +83,9 @@ plugins:
 
 # Navigation
 nav: 
-- Home: index.md 
-- Computer Science:
-  - API Management: computerscience/apimanagement/apiconnect/index.md
+- Ev: index.md 
+- Bilgisayar Bilimi:
+  - API Yönetimi: computerscience/apimanagement/apiconnect/index.md
  
 # Extras
 extra:
@@ -95,13 +95,14 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/ercancanlier/
   alternate:
-   - name: English
-     link: /
-     lang: en
    - name: Türkçe
-     link: /tr/
+     link: /
      lang: tr
-
+   - name: English
+     link: /en/
+     lang: en
+     
+# Exclude English docs from Turkish site
 exclude_docs: |
-  tr/
+  en/
     
