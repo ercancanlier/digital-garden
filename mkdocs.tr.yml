@@ -12,7 +12,7 @@ docs_dir: docs/tr
 # Configuration
 theme:
   name: material
-  language: en
+  language: tr
   palette:
     - primary: black
       accent: red
