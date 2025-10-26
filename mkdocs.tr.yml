@@ -103,8 +103,3 @@ extra:
    - name: English
      link: /en/
      lang: en
-
-# Exclude English docs from Turkish site
-exclude_docs: |
-  en/
-    
