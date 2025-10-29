@@ -98,9 +98,9 @@ extra:
       link: https://www.linkedin.com/in/ercancanlier/
   alternate:
    - name: English
-     link: /en/
+     link: https://ercancanlier.github.io/digital-garden/en/
      lang: en
    - name: Türkçe
-     link: /tr/
+     link: https://ercancanlier.github.io/digital-garden/tr/
      lang: tr
 
