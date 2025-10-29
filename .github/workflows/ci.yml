@@ -26,4 +26,9 @@ jobs:
       - run: pip install git+https://github.com/jldiaz/mkdocs-plugin-tags.git
       - run: mkdocs build -f config/en/mkdocs.yml
       - run: mkdocs build -f config/tr/mkdocs.yml
+      - run: cd config/tr/
       - run: mkdocs gh-deploy --force
+      - run: cd config/en/
+      - run: mkdocs gh-deploy --force
+      
+
