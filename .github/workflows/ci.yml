@@ -11,6 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Build Turkish docs
+        uses: ./
+        with:
+          entrypoint: mkdocs
+          args: build --config-file=mkdocs.tr.yml
+      - name: Build EN docs
+        uses: ./
+        with:
+          entrypoint: mkdocs
+          args: build --config-file=mkdocs.en.yml  
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -24,10 +34,8 @@ jobs:
       - run: pip3 install mkdocs-blogging-plugin
       - run: pip install mkdocs-glightbox
       - run: pip install git+https://github.com/jldiaz/mkdocs-plugin-tags.git
-      - run: mkdocs build -f config/en/mkdocs.yml
-      - run: mkdocs build -f config/tr/mkdocs.yml
-      - run: mkdocs gh-deploy --force -f config/en/mkdocs.yml
-      - run: mkdocs gh-deploy --force -f config/tr/mkdocs.yml
+      - run: mkdocs gh-deploy --force -f mkdocs.tr.yml
+      - run: mkdocs gh-deploy --force -f mkdocs.en.yml
     
   
       
