@@ -24,4 +24,7 @@ jobs:
       - run: pip3 install mkdocs-blogging-plugin
       - run: pip install mkdocs-glightbox
       - run: pip install git+https://github.com/jldiaz/mkdocs-plugin-tags.git
+      - run: cd config/en
+      - run: mkdocs gh-deploy --force
+      - run: cd config/tr
       - run: mkdocs gh-deploy --force
