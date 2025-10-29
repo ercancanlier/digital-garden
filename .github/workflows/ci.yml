@@ -27,6 +27,7 @@ jobs:
       - run: mkdocs build -f config/en/mkdocs.yml
       - run: mkdocs build -f config/tr/mkdocs.yml
       - run: mkdocs gh-deploy --force -f config/en/mkdocs.yml
+      - run: mkdocs gh-deploy --force -f config/tr/mkdocs.yml
     
   
       
