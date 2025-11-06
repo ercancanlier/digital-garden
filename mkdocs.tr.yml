@@ -88,6 +88,7 @@ nav:
 - Ev: index.md 
 - Bilgisayar Bilimi:
   - API Yönetimi: computerscience/apimanagement/apiconnect/index.md
+- Deneme:
  
 # Extras
 extra:
