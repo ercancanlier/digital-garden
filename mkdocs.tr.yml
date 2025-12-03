@@ -1,17 +1,17 @@
 # Project Info:
 site_name: ERCAN CANLIER LAB
-site_description: ERCAN CANLIER LAB
-site_url: https://ercancanlier.github.io/digital-garden/
+site_author: Ercan CANLIER
+docs_dir: 'docs/tr'
+site_dir: 'site/tr'
 
 # Repository Info:
 repo_name: ercancanlier/digital-garden
 repo_url: https://github.com/ercancanlier/digital-garden/
 
-docs_dir: '../../docs/tr'
-
 # Configuration
 theme:
   name: material
+  direction: ltr
   language: tr
   palette:
     - primary: black
@@ -31,7 +31,6 @@ font:
 icon:
   logo: material/receipt
   repo: fontawesome/brands/github
-
 features:
   - navigation.instant
   - navigation.top
@@ -77,19 +76,13 @@ markdown_extensions:
 # Plugins
 plugins:
   - blog
-  - search
+  - search:
+      lang: tr
   - git-authors
   - glightbox
   - tags:
       tags_file: tags.md
 
-# Navigation
-nav: 
-- Ev: index.md 
-- Bilgisayar Bilimi:
-  - API Yönetimi: computerscience/apimanagement/apiconnect/index.md
-- Deneme:
- 
 # Extras
 extra:
   social:
@@ -98,9 +91,15 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/ercancanlier/
   alternate:
-   - name: Türkçe
-     link: https://ercancanlier.github.io/digital-garden/tr/
-     lang: tr
    - name: English
      link: https://ercancanlier.github.io/digital-garden/en/
      lang: en
+   - name: Türkçe
+     link: https://ercancanlier.github.io/digital-garden/tr/
+     lang: tr
+
+# Navigation
+nav: 
+- Ana Sayfa: index.md 
+- Bilgisayar Bilimi:
+  - API Yönetimi: computerscience/apimanagement/apiconnect/index.md
