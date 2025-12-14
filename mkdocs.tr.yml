@@ -8,7 +8,6 @@ docs_dir: 'docs/tr'
 site_dir: 'site/tr'
 
 
-
 # Configuration
 theme:
   language: tr
