@@ -1,4 +1,4 @@
-INHERIT: mmkdocs.common.yml
+INHERIT: mkdocs.common.yml
 
 # Project Info:
 site_name: ERCAN CANLIER LAB
