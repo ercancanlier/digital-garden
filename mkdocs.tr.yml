@@ -19,6 +19,6 @@ plugins:
 
 # Navigation
 nav: 
-- Ana Sayfa: index.md 
-- Bilgisayar Bilimi:
-  - API Yönetimi: computerscience/apimanagement/apiconnect/index.md
+  - Ana Sayfa: index.md 
+  - Bilgisayar Bilimi:
+    - API Yönetimi: computerscience/apimanagement/apiconnect/index.md
