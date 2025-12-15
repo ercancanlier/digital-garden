@@ -24,32 +24,33 @@ plugins:
 nav: 
   - Home: index.md 
   - Computer Science:
-    - Algorithms
-    - Artificial Intelligence
-    - Data Structures
-    - Databases
-    - Networking
-    - Operating Systems
-    - Programming Languages
-    - Software Engineering
+    - Algorithms:
+    - Artificial Intelligence:
+    - Data Structures:
+    - Databases:
+    - Networking:
+    - Operating Systems:
+    - Programming Languages:
+    - Software Engineering:
   - Cloud Native Computing:
-    - Application Definition & Development
-    - Observability & Analysis
-    - Orchestration & Management
-    - Provisioning
-    - Runtime
+    - Application Definition & Development:
+    - Observability & Analysis:
+    - Orchestration & Management:
+    - Provisioning:
+    - Platforms:
+    - Runtime:
   - IBM Products:
     - Middleware:
       - API Management: computerscience/apimanagement/apiconnect/index.md
-      - DataPower
+      - DataPower:
   - RedHat Products:
-    - Openshift
-    - Ansible
-  - System Design & Architecture
+    - Openshift:
+    - Ansible:
+  - System Design & Architecture:
   - Teaching:
-    - Courses
-    - Workshops
-    - Labs
-  - Blog
-  - About
+    - Courses:
+    - Workshops:
+    - Labs:
+  - Blog:
+  - About:
   
