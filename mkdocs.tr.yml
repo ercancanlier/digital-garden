@@ -21,4 +21,32 @@ plugins:
 nav: 
   - Ana Sayfa: index.md 
   - Bilgisayar Bilimi:
-    - API Yönetimi: computerscience/apimanagement/apiconnect/index.md
+    - Algoritmalar: index.md
+    - Yapay Zeka: index.md
+    - Veri Yapıları: index.md
+    - Veritabanları: index.md
+    - Ağlar: index.md
+    - İşletim Sistemleri: index.md
+    - Programlama Dilleri: index.md
+    - Yazılım Mühendisliği: index.md
+  - Cloud Native Computing:
+    - Uygulama Tanımı ve Geliştirme: index.md 
+    - Gözlemlenebilirlik ve Analiz: index.md 
+    - Orkestrasyon ve Yönetim: index.md 
+    - Provisioning: index.md 
+    - Platformlar: index.md 
+    - Runtime: index.md
+  - IBM Ekosistemi:
+    - Orta Katman:
+      - API Yönetimi: computerscience/apimanagement/apiconnect/index.md
+      - DataPower: index.md 
+  - RedHat Ekosistemi:
+    - Openshift: index.md 
+    - Ansible: index.md 
+  - Sistem Tasarımı ve Mimarisi: index.md
+  - Öğretim:
+    - Ders: index.md 
+    - Atölye: index.md 
+    - Lab: index.md 
+  - Günlük: index.md
+  - Hakkımda: index.md
