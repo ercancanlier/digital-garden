@@ -46,7 +46,7 @@ nav:
   - RedHat Products:
     - Openshift: index.md 
     - Ansible: index.md 
-  - System Design & Architecture:
+  - System Design & Architecture: index.md
   - Teaching:
     - Courses: index.md 
     - Workshops: index.md 
