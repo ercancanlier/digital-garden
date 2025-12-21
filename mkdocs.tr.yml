@@ -1,7 +1,7 @@
 INHERIT: mkdocs.common.yml
 
 # Project Info:
-site_name: ERCAN CANLIER LAB
+site_name: ERCAN CANLIER - MÜHENDİSLİK NOTLARI
 site_author: Ercan CANLIER
 site_url: https://ercancanlier.github.io/digital-garden/tr/
 docs_dir: 'docs/tr'
