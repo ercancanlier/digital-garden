@@ -39,13 +39,14 @@ nav:
     - Provisioning: index.md 
     - Platforms: index.md 
     - Runtime: index.md 
-  - IBM Ecosystem:
-    - Middleware:
-      - API Management: computerscience/apimanagement/apiconnect/index.md
-      - DataPower: index.md 
-  - RedHat Ecosystem:
-    - Openshift: index.md 
-    - Ansible: index.md 
+  - Enterprise Platforms:
+    - IBM:
+      - Middleware:
+        - API Management: computerscience/apimanagement/apiconnect/index.md
+        - DataPower: index.md 
+    - RedHat:
+        - Openshift: index.md 
+        - Ansible: index.md 
   - System Design & Architecture: index.md
   - Teaching:
     - Courses: index.md 
