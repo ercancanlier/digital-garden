@@ -1,6 +1,8 @@
 ---
 draft: false 
 date: 28-06-2026 
+authors:
+  - ercancanlier
 categories:
   - general
 ---

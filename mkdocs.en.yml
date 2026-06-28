@@ -52,7 +52,6 @@ nav:
     - Courses: index.md 
     - Workshops: index.md 
     - Labs: index.md 
-  - Blog: 
-     - blog/index.md 
+  - Blog: blog/index.md 
   - About: index.md 
   
