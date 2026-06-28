@@ -49,5 +49,6 @@ nav:
     - Ders: index.md 
     - Atölye: index.md 
     - Lab: index.md 
-  - Günlük: index.md
+  - Günlük:
+    - blog/index.md
   - Hakkımda: index.md
