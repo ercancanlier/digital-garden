@@ -16,6 +16,8 @@ theme:
 plugins:
   - search:
       lang: tr
+  - blog:
+      blog_dir: blog
 
 # Navigation
 nav: 
